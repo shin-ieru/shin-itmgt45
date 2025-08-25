@@ -76,7 +76,7 @@ def material_waste(total_material, material_units, num_jobs, job_consumption):
     # Step 2 indicates to subtract the total material consumed from the total material available.
     material_waste = total_material - total_job_consumption
     # We should also include the units.
-    return "{}{}".format (material_waste, material_units)
+    print ("{}{}".format (material_waste, material_units))
 
 def interest(principal, rate, periods):
     '''Interest.
